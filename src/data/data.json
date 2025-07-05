@@ -1,0 +1,68 @@
+{
+  "pricing": [
+    {
+      "id": 1,
+      "adult": 2641,
+      "child": 2071,
+      "infant": 0,
+      "discount": 0
+    },
+    {
+      "id": 2,
+      "adult": 2244,
+      "child": 1760,
+      "infant": 0,
+      "discount": 15,
+      "adultOriginal": 2641,
+      "childOriginal": 2071
+    },
+    {
+      "id": 3,
+      "adult": 2112,
+      "child": 1656,
+      "infant": 0,
+      "discount": 20,
+      "adultOriginal": 2641,
+      "childOriginal": 2071
+    },
+    {
+      "id": 4,
+      "adult": 1980,
+      "child": 1553,
+      "infant": 0,
+      "discount": 25,
+      "adultOriginal": 2641,
+      "childOriginal": 2071
+    },
+    {
+      "id": 5,
+      "adult": 1848,
+      "child": 1449,
+      "infant": 0,
+      "discount": 30,
+      "adultOriginal": 2641,
+      "childOriginal": 2071
+    }
+  ],
+
+  "faq": [
+    {
+      "id": "tax",
+      "title": "Sobre el impuesto de muelle y arrecife",
+      "content": "Los cargos por muelle y arrecife son un pago único por día y por persona. Es un impuesto federal aplicado a cualquier persona que aborde una embarcación.",
+      "link": "https://help.cancunsailing.com/es/acerca-del-impuesto-de-muelle?hsLang=es"
+    },
+    {
+      "id": "cancel",
+      "title": "Política de cancelaciones",
+      "content": "Nuestras políticas de servicio son muy flexibles, permitiéndote re-programar y cancelar sin penalización; nunca será nuestra intención afectarte.",
+      "link": "https://help.cancunsailing.com/es/acerca-del-impuesto-de-muelle?hsLang=es"
+    },
+    {
+      "id": "recolection",
+      "title": "Sobre recolección y puntos de encuentro",
+      "content": "Revisa el listado de hoteles y los puntos de encuentro para la recogida.",
+      "link": "https://help.cancunsailing.com/es/acerca-del-impuesto-de-muelle?hsLang=es"
+    }
+  ]
+}
