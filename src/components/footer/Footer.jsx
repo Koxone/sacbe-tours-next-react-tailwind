@@ -10,14 +10,12 @@ export default function Footer() {
   return (
     <footer className="bg-neutral-900 px-10 py-10 text-neutral-200">
       <div className="mx-auto max-w-7xl space-y-8">
-        {/* Top */}
         <div className="flex items-center justify-between gap-4 sm:flex-row">
           <div className="shrink-0">
             <Link href="/">
               <Image
                 src="/assets/sacbe.svg"
                 alt="Sacbé Transfers"
-                title="Sacbé Transfers"
                 width={130}
                 height={50}
                 className="h-auto w-[130px] cursor-pointer"
@@ -54,18 +52,11 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
         <div className="flex flex-col items-center justify-between gap-4 border-t border-neutral-700 pt-6 sm:flex-row">
           <p className="text-sm">{t('footer.copyright')}</p>
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2">
-              <Image
-                src="/visa.svg"
-                alt="Visa"
-                title="Visa"
-                width={30}
-                height={30}
-              />
+              <Image src="/visa.svg" alt="Visa" width={30} height={30} />
               <Image
                 src="/mastercard.svg"
                 alt="Mastercard"
@@ -73,28 +64,10 @@ export default function Footer() {
                 width={30}
                 height={30}
               />
-              <Image
-                src="/amex.svg"
-                alt="AMEX"
-                title="AMEX"
-                width={30}
-                height={30}
-              />
+              <Image src="/amex.svg" alt="AMEX" width={30} height={30} />
             </div>
-            <Image
-              src="/paypal.svg"
-              alt="PayPal"
-              title="PayPal"
-              width={60}
-              height={27}
-            />
-            <Image
-              src="/stripe.svg"
-              alt="Stripe"
-              title="Stripe"
-              width={100}
-              height={48}
-            />
+            <Image src="/paypal.svg" alt="PayPal" width={60} height={27} />
+            <Image src="/stripe.svg" alt="Stripe" width={100} height={48} />
           </div>
         </div>
       </div>

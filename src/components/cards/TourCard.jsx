@@ -35,9 +35,9 @@ function TourCard() {
     <div className="h-[500px] w-full max-w-5xl min-w-[200px] overflow-hidden">
       <div
         ref={widgetRef}
-        className="bokunWidget h-fit max-w-[300px]"
+        className="bokunWidget w-full max-w-[500px]"
         data-src="https://widgets.bokun.io/online-sales/613a4d6d-a284-4b72-9bf4-4376927bb45f/product-list/92929"
-      ></div>
+      />
     </div>
   );
 }

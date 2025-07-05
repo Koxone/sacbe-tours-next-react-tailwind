@@ -1,5 +1,5 @@
-import FAQCard from "../cards/FAQCard";
-import data from "@/data/data.json";
+import FAQCard from '../cards/FAQCard';
+import data from '@/data/data.json';
 
 const FAQContainer = () => {
   const faqItems = data.faq;
@@ -19,6 +19,7 @@ const FAQContainer = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {faqItems.map((item) => (
           <FAQCard
+            key={item.id} 
             title={item.title}
             revealed={item.content}
             onClick={handleButtonClick}
