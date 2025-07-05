@@ -6,6 +6,7 @@ function MainBanner() {
     <div className="relative flex h-[200px] w-full items-center justify-center md:h-[300px] lg:h-[400px]">
       <Image
         fill
+        sizes='100dvw'
         src="/assets/mainBanner.webp"
         alt="Main Banner"
         className="absolute inset-0 h-full w-full object-cover object-center"
