@@ -25,7 +25,7 @@ export default function HeaderMenu({ className, closeMobileMenu }) {
 
   return (
     <div
-      className={`relative cursor-pointer inline-block text-left select-none ${className} ${
+      className={`relative inline-block cursor-pointer text-left select-none ${className} ${
         isMobile ? '' : 'group'
       }`}
     >
@@ -49,18 +49,6 @@ export default function HeaderMenu({ className, closeMobileMenu }) {
           onClick={() => handleNavigate('/tours/cancun')}
         >
           Cancun
-        </li>
-        <li
-          className="cursor-pointer px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-100"
-          onClick={() => handleNavigate('/tours/playa-del-carmen')}
-        >
-          Playa del Carmen
-        </li>
-        <li
-          className="cursor-pointer px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-100"
-          onClick={() => handleNavigate('/tours/tulum')}
-        >
-          Tulum
         </li>
       </ul>
     </div>
