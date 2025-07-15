@@ -66,7 +66,7 @@ export default function Header() {
             className={linkClass('/')}
             onClick={() => isMobile && setMenuOpen(false)}
           >
-            {t('menu.home')}
+            {t('general.menu.home')}
           </Link>
           <HeaderMenu
             className={linkClass('/tours')}
@@ -77,7 +77,7 @@ export default function Header() {
             className={linkClass('/contact')}
             onClick={() => isMobile && setMenuOpen(false)}
           >
-            {t('menu.contact')}
+            {t('general.menu.contact')}
           </Link>
         </div>
       </div>

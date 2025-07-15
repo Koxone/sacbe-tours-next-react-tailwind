@@ -16,13 +16,13 @@ function Menu() {
     <div className="w-full bg-[#297da9] px-4 py-4">
       <div className="mx-auto flex max-w-[800px] justify-center gap-10">
         <Link className={linkClass("/")} to="/">
-          {t("menu.home")}
+          {t("general.menu.home")}
         </Link>
         <Link className={linkClass("/tours")} to="/tours">
-          {t("menu.tours")}
+          {t("general.menu.tours")}
         </Link>
         <Link className={linkClass("/contact")} to="/contact">
-          {t("menu.contact")}
+          {t("general.menu.contact")}
         </Link>
       </div>
     </div>

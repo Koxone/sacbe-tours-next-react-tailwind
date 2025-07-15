@@ -6,7 +6,7 @@ import TourWidgetContainer from '@/components/containers/TourWidgetContainer';
 import ToursPricing from '@/components/features/ToursPricing';
 import ToursBreadcrumb from '@/components/nav/ToursBreadCromb';
 
-function Tours() {
+function TourCancun() {
   return (
     <div className="w-full">
       <ToursBanner />

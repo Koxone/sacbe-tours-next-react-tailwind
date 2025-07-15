@@ -9,7 +9,7 @@ function AboutUsContainer() {
     <div className="flex w-full justify-center bg-[#297da9] p-5">
       <div className="flex w-full flex-col md:w-[70%]">
         <h2 className="mb-4 text-center text-4xl font-bold text-white md:text-[40px]">
-          {t('aboutUs.title')}
+          {t('general.aboutUs.title')}
         </h2>
         <p className="text-center text-white">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt

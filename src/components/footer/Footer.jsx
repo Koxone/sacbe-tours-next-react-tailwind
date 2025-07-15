@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-neutral-700 pt-6 sm:flex-row">
-          <p className="text-sm">{t('footer.copyright')}</p>
+          <p className="text-sm">{t('general.footer.copyright')}</p>
           <div className="flex flex-wrap items-center gap-3">
             <div className="flex items-center gap-2">
               <Image src="/visa.svg" alt="Visa" width={30} height={30} />

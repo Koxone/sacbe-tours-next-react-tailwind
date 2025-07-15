@@ -19,14 +19,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body>
+      <body className="grid min-h-screen grid-rows-[auto_1fr_auto]">
         <ContextProvider>
           <I18nProvider>
-            <div className="grid min-h-screen grid-rows-[auto_1fr_auto]">
-              <Header />
-              <main>{children}</main>
-              <Footer />
-            </div>
+            <Header />
+            <main>{children}</main>
+            <Footer />
           </I18nProvider>
         </ContextProvider>
       </body>

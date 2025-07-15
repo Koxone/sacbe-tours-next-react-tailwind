@@ -20,7 +20,7 @@ function LanguageButton() {
       onClick={toggleLanguage}
       className="flex h-8 w-fit cursor-pointer items-center justify-center gap-1 rounded-sm border bg-[#297da9] p-1 text-center text-sm font-medium tracking-wide text-white uppercase transition-colors duration-300 hover:bg-[#004165] md:h-10 md:w-fit md:px-4 md:text-sm md:font-semibold md:tracking-normal"
     >
-      {t('languageButton.button')}
+      {t('general.languageButton.button')}
       <Image
         className="w-[18px] md:w-[20px]"
         width={18}

@@ -1,9 +1,22 @@
 'use client';
 
-import React, { useEffect, useRef } from "react";
+import { usePathname } from 'next/navigation';
+import React, { useEffect, useRef } from 'react';
 
 function ToursVideoCard() {
   const videoRef = useRef(null);
+  const pathname = usePathname();
+
+  let videoSrc = '';
+
+  if (pathname.includes('tulum')) {
+    videoSrc = '/assets/tulum.mp4';
+  } else if (pathname.includes('cancun')) {
+    videoSrc = '/assets/cancun.mp4';
+  } else if (pathname.includes('chichen-itza')) {
+    videoSrc =
+      'https://videos.pexels.com/video-files/27049871/12057482_2560_1440_60fps.mp4';
+  }
 
   useEffect(() => {
     if (videoRef.current) {
@@ -15,7 +28,7 @@ function ToursVideoCard() {
     <div className="rounded-lg border-4 bg-white md:block">
       <video
         ref={videoRef}
-        src="/assets/pruebaBanner.mp4"
+        src={videoSrc}
         muted
         loop
         playsInline

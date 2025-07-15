@@ -17,7 +17,7 @@ function TourWidgetContainer() {
 
         const script = document.createElement('script');
         script.src =
-          'https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=613a4d6d-a284-4b72-9bf4-4376927bb45f';
+          'https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=134bd5aa-4e3e-4dae-a4d0-4bb2d507381f'; // nuevo UUID
         script.async = true;
         script.id = scriptId;
         script.onload = resolve;
@@ -51,7 +51,7 @@ function TourWidgetContainer() {
       <div
         ref={widgetRef}
         className="bokunWidget"
-        data-src="https://widgets.bokun.io/online-sales/613a4d6d-a284-4b72-9bf4-4376927bb45f/experience/1048914"
+        data-src="https://widgets.bokun.io/online-sales/134bd5aa-4e3e-4dae-a4d0-4bb2d507381f/experience/1048914"
       ></div>
     </div>
   );

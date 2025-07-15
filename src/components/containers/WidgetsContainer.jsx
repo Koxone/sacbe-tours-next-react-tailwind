@@ -9,7 +9,7 @@ function WidgetsContainer() {
   return (
     <div className="flex h-fit w-full max-w-[1280px] flex-col items-center justify-center gap-6 px-0 py-10 md:gap-12 md:px-5">
       <h2 className="text-center text-4xl font-bold md:text-[50px]">
-        {t('widgetContainer.title')}
+        {t('general.widgetContainer.title')}
       </h2>
 
       <div className="w-full overflow-x-auto">

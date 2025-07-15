@@ -1,51 +1,212 @@
 {
-  "language": {
-    "spanish": "Español",
-    "english": "Inglés"
+  "general": {
+    "language": {
+      "spanish": "Español",
+      "english": "Inglés"
+    },
+    "menu": {
+      "home": "Home",
+      "contact": "Contacto",
+      "tours": "Tours"
+    },
+    "header": {
+      "title": "Tulum Tours",
+      "bookButton": "Reserva Ya"
+    },
+    "tourBanner": {
+      "adult": "Adulto",
+      "bookButton": "Reserva Ya!"
+    },
+    "aboutUs": {
+      "title": "Sobre Nosotros"
+    },
+    "widgetContainer": {
+      "title": "Descubre nuestros tours"
+    },
+    "footer": {
+      "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
+    },
+    "couponContainer": {
+      "welcome": "Bienvenido a nuestra plataforma",
+      "subtitle": "Obtén los mejores descuentos fácilmente"
+    },
+    "regionSelector": {
+      "selectRegion": "Todas las Regiones",
+      "mexico": "México",
+      "dominicanRepublic": "República Dominicana",
+      "cancun": "Cancún",
+      "tulum": "Tulum",
+      "losCabos": "Los Cabos",
+      "puertoVallarta": "Puerto Vallarta",
+      "puntaCana": "Punta Cana"
+    },
+    "languageButton": {
+      "button": "Español"
+    },
+    "couponV3": {
+      "button": "Ver Detalles"
+    },
+    "modalComingSoon": {
+      "title": "¡Próximamente en este destino!",
+      "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
+    }
   },
-  "header": {
-    "title": "Cancun Tours",
-    "bookButton": "Reserva Ya"
-  },
-  "menu": {
-    "home": "Home",
-    "tours": "Tours",
-    "contact": "Contacto",
-    "description": "Descripción",
-    "terms": "Términos y condiciones con el proveedor",
-    "download": "Descargando..."
-  },
-  "aboutUs": {
-    "title": "Sobre Nosotros"
-  },
-  "widgetContainer": {
-    "title": "Descubre nuestros tours"
-  },
-  "footer": {
-    "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
-  },
-  "couponContainer": {
-    "welcome": "Bienvenido a nuestra plataforma",
-    "subtitle": "Obtén los mejores descuentos fácilmente"
-  },
-  "regionSelector": {
-    "selectRegion": "Todas las Regiones",
-    "mexico": "México",
-    "dominicanRepublic": "República Dominicana",
-    "cancun": "Cancún",
-    "tulum": "Tulum",
-    "losCabos": "Los Cabos",
-    "puertoVallarta": "Puerto Vallarta",
-    "puntaCana": "Punta Cana"
-  },
-  "languageButton": {
-    "button": "Español"
-  },
-  "couponV3": {
-    "button": "Ver Detalles"
-  },
-  "modalComingSoon": {
-    "title": "¡Próximamente en este destino!",
-    "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
+  "tours": {
+    "tulum": {
+      "language": {
+        "spanish": "Español",
+        "english": "Inglés"
+      },
+      "banner": {
+        "title": "Tulum Experiencia Natural",
+        "paragraph": "Sea uno de los pocos afortunados que vivió esta experiencia única, sólo algunos conocen este lugar ya que el acceso está ",
+        "limited": "Limitado a 200 personas por dia."
+      },
+      "toursPricing": {
+        "title": "Reserva aquí el tour ecológico a Tulum",
+        "subtitle": "Seleccione con cuántos días de anticipación desea reservar para ver las tarifas aplicables",
+        "contact": "Contacto",
+        "description": "Descripción",
+        "terms": "Términos y condiciones con el proveedor",
+        "download": "Descargando..."
+      },
+      "aboutUs": {
+        "title": "Sobre Nosotros"
+      },
+      "widgetContainer": {
+        "title": "Descubre nuestros tours"
+      },
+      "footer": {
+        "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
+      },
+      "couponContainer": {
+        "welcome": "Bienvenido a nuestra plataforma",
+        "subtitle": "Obtén los mejores descuentos fácilmente"
+      },
+      "regionSelector": {
+        "selectRegion": "Todas las Regiones",
+        "mexico": "México",
+        "dominicanRepublic": "República Dominicana",
+        "cancun": "Cancún",
+        "tulum": "Tulum",
+        "losCabos": "Los Cabos",
+        "puertoVallarta": "Puerto Vallarta",
+        "puntaCana": "Punta Cana"
+      },
+      "languageButton": {
+        "button": "Español"
+      },
+      "couponV3": {
+        "button": "Ver Detalles"
+      },
+      "modalComingSoon": {
+        "title": "¡Próximamente en este destino!",
+        "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
+      }
+    },
+    "chichen": {
+      "language": {
+        "spanish": "Español",
+        "english": "Inglés"
+      },
+      "banner": {
+        "title": "Chichen Itza Experiencia Natural",
+        "paragraph": "Sea uno de los pocos afortunados que vivió esta experiencia única, sólo algunos conocen este lugar ya que el acceso está ",
+        "limited": "Limitado a 200 personas por dia."
+      },
+      "tourBanner": {
+        "title": "Home",
+        "tours": "Tours",
+        "contact": "Contacto",
+        "description": "Descripción",
+        "terms": "Términos y condiciones con el proveedor",
+        "download": "Descargando..."
+      },
+      "aboutUs": {
+        "title": "Sobre Nosotros"
+      },
+      "widgetContainer": {
+        "title": "Descubre nuestros tours"
+      },
+      "footer": {
+        "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
+      },
+      "couponContainer": {
+        "welcome": "Bienvenido a nuestra plataforma",
+        "subtitle": "Obtén los mejores descuentos fácilmente"
+      },
+      "regionSelector": {
+        "selectRegion": "Todas las Regiones",
+        "mexico": "México",
+        "dominicanRepublic": "República Dominicana",
+        "cancun": "Cancún",
+        "tulum": "Tulum",
+        "losCabos": "Los Cabos",
+        "puertoVallarta": "Puerto Vallarta",
+        "puntaCana": "Punta Cana"
+      },
+      "languageButton": {
+        "button": "Español"
+      },
+      "couponV3": {
+        "button": "Ver Detalles"
+      },
+      "modalComingSoon": {
+        "title": "¡Próximamente en este destino!",
+        "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
+      }
+    },
+    "cancun": {
+      "language": {
+        "spanish": "Español",
+        "english": "Inglés"
+      },
+      "banner": {
+        "title": "Tulum Experiencia Natural",
+        "paragraph": "Sea uno de los pocos afortunados que vivió esta experiencia única, sólo algunos conocen este lugar ya que el acceso está ",
+        "limited": "Limitado a 200 personas por dia."
+      },
+      "tourBanner": {
+        "title": "Home",
+        "tours": "Tours",
+        "contact": "Contacto",
+        "description": "Descripción",
+        "terms": "Términos y condiciones con el proveedor",
+        "download": "Descargando..."
+      },
+      "aboutUs": {
+        "title": "Sobre Nosotros"
+      },
+      "widgetContainer": {
+        "title": "Descubre nuestros tours"
+      },
+      "footer": {
+        "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
+      },
+      "couponContainer": {
+        "welcome": "Bienvenido a nuestra plataforma",
+        "subtitle": "Obtén los mejores descuentos fácilmente"
+      },
+      "regionSelector": {
+        "selectRegion": "Todas las Regiones",
+        "mexico": "México",
+        "dominicanRepublic": "República Dominicana",
+        "cancun": "Cancún",
+        "tulum": "Tulum",
+        "losCabos": "Los Cabos",
+        "puertoVallarta": "Puerto Vallarta",
+        "puntaCana": "Punta Cana"
+      },
+      "languageButton": {
+        "button": "Español"
+      },
+      "couponV3": {
+        "button": "Ver Detalles"
+      },
+      "modalComingSoon": {
+        "title": "¡Próximamente en este destino!",
+        "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
+      }
+    }
   }
 }
