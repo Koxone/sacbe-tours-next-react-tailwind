@@ -8,7 +8,7 @@ function Home() {
       <div className="h-fit w-full">
         <MainBanner />
       </div>
-      <WidgetsContainer tour1="tulum" tour2="chichen" tour3="cancun" tour4='playaDelCarmen' />
+      <WidgetsContainer tour1="tulum" tour2="chichen-itza" tour3="cancun" tour4='playaDelCarmen' />
       <AboutUsContainer />
     </div>
   );

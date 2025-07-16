@@ -15,7 +15,7 @@ const tourCards = {
     duration: '6 hours',
     price: '$6,199',
   },
-  chichen: {
+  'chichen-itza': {
     title: 'Tour Chichen-Itza 2025',
     url: 'https://images.odigoo.com/images/media/chichen-itza-a-coba/chichen-itza.jpg',
     paragraph:

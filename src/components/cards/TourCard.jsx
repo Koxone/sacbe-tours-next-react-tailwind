@@ -1,12 +1,17 @@
 'use client';
 
 import tourCards from '@/data/tourCards';
+import { useRouter } from 'next/navigation';
 
 function TourCard({ tour }) {
   const data = tourCards[tour];
+  const router = useRouter();
 
   return (
-    <div className="group flex shrink-0 w-full max-w-[250px] cursor-pointer flex-col overflow-hidden rounded-lg border border-neutral-500/50 bg-white shadow-sm">
+    <div
+      onClick={() => router.push(`/tours/${tour}`)}
+      className="group flex w-full max-w-[250px] shrink-0 cursor-pointer flex-col overflow-hidden rounded-lg border border-neutral-500/50 bg-white shadow-sm"
+    >
       {/* Imagen con aspect ratio fijo */}
       <div className="relative aspect-[4/3] w-full overflow-hidden">
         <img
