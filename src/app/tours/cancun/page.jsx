@@ -18,4 +18,4 @@ function TourCancun() {
   );
 }
 
-export default Tours;
+export default TourCancun;
