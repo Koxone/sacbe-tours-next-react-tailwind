@@ -12,8 +12,8 @@ function WidgetsContainer({ tour1, tour2, tour3, tour4 }) {
         {t('general.widgetContainer.title')}
       </h2>
 
-      <div className="flex w-full items-center justify-center overflow-x-auto">
-        <div className="flex w-max  justify-center gap-4 p-4">
+      <div className="w-full overflow-x-auto">
+        <div className="mx-auto flex w-max gap-4 px-4 pb-4">
           <TourCard tour={tour1} />
           <TourCard tour={tour2} />
           <TourCard tour={tour3} />
