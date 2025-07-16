@@ -3,7 +3,7 @@
 import { useTranslation } from 'react-i18next';
 import TourCard from '../cards/TourCard';
 
-function WidgetsContainer() {
+function WidgetsContainer({ tour1, tour2, tour3, tour4 }) {
   const { t } = useTranslation();
 
   return (
@@ -12,9 +12,12 @@ function WidgetsContainer() {
         {t('general.widgetContainer.title')}
       </h2>
 
-      <div className="w-full overflow-x-auto">
-        <div className="flex w-max gap-4 p-4">
-          <TourCard />
+      <div className="flex w-full items-center justify-center overflow-x-auto">
+        <div className="flex w-max  justify-center gap-4 p-4">
+          <TourCard tour={tour1} />
+          <TourCard tour={tour2} />
+          <TourCard tour={tour3} />
+          <TourCard tour={tour4} />
         </div>
       </div>
     </div>
