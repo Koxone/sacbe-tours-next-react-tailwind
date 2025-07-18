@@ -46,13 +46,13 @@ export default function HeaderMenu({ className, closeMobileMenu }) {
       >
         <li
           className="cursor-pointer rounded px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-400"
-          onClick={() => handleNavigate('/tours/tulum')}
+          onClick={() => (window.location.href = '/tours/tulum')}
         >
           Tulum
         </li>
         <li
           className="cursor-pointer rounded px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-400"
-          onClick={() => handleNavigate('/tours/chichen-itza')}
+          onClick={() => (window.location.href = '/tours/chichen-itza')}
         >
           Chichen Itza
         </li>
