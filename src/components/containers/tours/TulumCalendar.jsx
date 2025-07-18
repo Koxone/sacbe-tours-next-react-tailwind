@@ -7,7 +7,6 @@ export default function TulumCalendar() {
     const widgetSrc =
       'https://widgets.bokun.io/assets/javascripts/apps/build/BokunWidgetsLoader.js?bookingChannelUUID=134bd5aa-4e3e-4dae-a4d0-4bb2d507381f';
 
-    // Solo agrega el script si no existe ya
     if (!document.getElementById(scriptId)) {
       const script = document.createElement('script');
       script.id = scriptId;

@@ -12,7 +12,6 @@ function TourWidgetContainer() {
       <TourMosaic />
       <div className="grid w-full grid-cols-2">
         <TourDescription />
-
         {pathname.includes('tulum') && <TulumCalendar />}
         {pathname.includes('chichen-itza') && <ChichenCalendar />}
       </div>
