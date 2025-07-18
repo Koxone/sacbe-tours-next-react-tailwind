@@ -74,7 +74,13 @@
         "title": "Sobre Nosotros"
       },
       "widgetContainer": {
-        "title": "Descubre nuestros tours"
+        "header": {
+          "title": "Tour Tulum 2025",
+          "time": "6",
+          "utils": " horas · Fácil · Privado",
+          "bookingButton": "Reservar",
+          "description": "Private tour to Tulum with cenote and optional visit to a traditional village: history, landscapes, and crystal-clear waters in the Mexican Caribbean."
+        }
       },
       "footer": {
         "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
