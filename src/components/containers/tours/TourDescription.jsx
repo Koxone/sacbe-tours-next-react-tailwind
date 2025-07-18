@@ -57,7 +57,7 @@ export default function TourDescription() {
       {/* Tab Content */}
       <div role="tabpanel" className="mt-6 space-y-4">
         {activeTab === 'description' && (
-          <div className='flex flex-col gap-7'>
+          <div className="flex flex-col gap-7">
             {/* Description */}
             <div>
               <div className="flex flex-col gap-4">
@@ -92,7 +92,7 @@ export default function TourDescription() {
             <div className="flex flex-col gap-4">
               <h3 className="relative mb-2 text-xl font-semibold">
                 ¿Qué está incluido en el precio?
-                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-blue-500"></span>
+                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-[#297da9]"></span>
               </h3>
               <ul className="ml-4 list-inside list-disc text-gray-700">
                 <li>Suplemento por combustible</li>
@@ -108,7 +108,7 @@ export default function TourDescription() {
             <div className="flex flex-col gap-4">
               <h3 className="relative mb-2 text-xl font-semibold">
                 Exclusiones
-                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-blue-500"></span>
+                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-[#297da9]"></span>
               </h3>
               <ul className="ml-4 list-inside list-disc text-gray-700">
                 <li>Propina o agradecimiento</li>
@@ -124,7 +124,7 @@ export default function TourDescription() {
             <div className="flex flex-col gap-4">
               <h3 className="relative mb-2 text-xl font-semibold">
                 ¿Qué necesito llevar?
-                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-blue-500"></span>
+                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-[#297da9]"></span>
               </h3>
               <ul className="ml-4 list-inside list-disc text-gray-700">
                 <li>Ropa cómoda y ligera</li>
@@ -140,7 +140,7 @@ export default function TourDescription() {
             <div className="flex flex-col gap-4">
               <h3 className="relative mb-2 text-xl font-semibold">
                 Política de cancelación
-                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-blue-500"></span>
+                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-[#297da9]"></span>
               </h3>
               <ul className="ml-4 list-inside list-disc text-gray-700">
                 <li>
@@ -156,7 +156,7 @@ export default function TourDescription() {
             <div className="flex flex-col gap-4">
               <h3 className="relative mb-2 text-xl font-semibold">
                 Más información
-                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-blue-500"></span>
+                <span className="absolute -bottom-4 left-0 h-2 w-[50px] rounded border border-blue-500 bg-[#297da9]"></span>
               </h3>
               <ul className="ml-4 list-inside list-disc text-gray-700">
                 <li>Tipo de experiencia: Tour / Actividad Privado</li>

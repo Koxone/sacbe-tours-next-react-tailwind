@@ -48,7 +48,7 @@ export default function TourMosaic() {
             src={images[0]}
             alt="Main"
             onClick={() => openModal(0)}
-            className="h-full w-full cursor-pointer rounded-lg object-cover"
+            className="h-full w-full cursor-pointer rounded-lg object-cover transition-all duration-300 ease-in-out hover:scale-95"
           />
         </div>
         <div className="grid h-full w-full grid-cols-2 gap-4 sm:grid-cols-1">
@@ -58,7 +58,7 @@ export default function TourMosaic() {
               src={src}
               alt={`Image ${idx + 2}`}
               onClick={() => openModal(idx + 1)}
-              className="h-full w-full cursor-pointer rounded-lg object-cover"
+              className="h-full w-full cursor-pointer rounded-lg object-cover transition-all duration-300 ease-in-out hover:scale-95"
             />
           ))}
         </div>
@@ -101,7 +101,7 @@ export default function TourMosaic() {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4">
           <button
             onClick={closeModal}
-            className="absolute top-4 right-4 text-white hover:text-gray-300"
+            className="absolute top-4 right-4 cursor-pointer text-white hover:text-gray-300"
           >
             <CloseIcon className="h-6 w-6" />
           </button>
@@ -109,7 +109,7 @@ export default function TourMosaic() {
           {/* Chevron buttons */}
           <button
             onClick={prevImage}
-            className="absolute top-1/2 left-4 -translate-y-1/2 rounded-full bg-black/50 p-2 text-white"
+            className="absolute top-1/2 left-4 -translate-y-1/2 cursor-pointer rounded-full bg-black/50 p-2 text-white transition-all duration-300 ease-in-out hover:scale-110"
           >
             <ChevronLeftIcon className="h-6 w-6" />
           </button>
@@ -120,7 +120,7 @@ export default function TourMosaic() {
           />
           <button
             onClick={nextImage}
-            className="absolute top-1/2 right-4 -translate-y-1/2 rounded-full bg-black/50 p-2 text-white"
+            className="absolute top-1/2 right-4 -translate-y-1/2 cursor-pointer rounded-full bg-black/50 p-2 text-white transition-all duration-300 ease-in-out hover:scale-110"
           >
             <ChevronRightIcon className="h-6 w-6" />
           </button>
