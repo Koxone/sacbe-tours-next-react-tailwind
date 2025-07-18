@@ -45,10 +45,16 @@ export default function HeaderMenu({ className, closeMobileMenu }) {
         }`}
       >
         <li
-          className="cursor-pointer px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-100"
-          onClick={() => handleNavigate('/tours/cancun')}
+          className="cursor-pointer rounded px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-400"
+          onClick={() => handleNavigate('/tours/tulum')}
         >
-          Cancun
+          Tulum
+        </li>
+        <li
+          className="cursor-pointer rounded px-4 py-2 text-base whitespace-nowrap text-black hover:bg-gray-400"
+          onClick={() => handleNavigate('/tours/chichen-itza')}
+        >
+          Chichen Itza
         </li>
       </ul>
     </div>

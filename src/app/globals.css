@@ -35,19 +35,17 @@ body {
 
 @keyframes ping-sacbe {
   0% {
-    transform: scale(1); /* inicia en tamaño normal */
-    opacity: 0.5; /* muy visible al inicio */
-    background-color: #ffffff; /* color cian llamativo */
+    transform: scale(1);
+    opacity: 0.5;
+    background-color: #ffffff;
   }
   100% {
-    transform: scale(1.2); /* crece 4x, MUY grande */
-    opacity: 0; /* desaparece */
-    background-color: #ffffff; /* cambia a magenta antes de desaparecer */
+    transform: scale(1.2);
+    opacity: 0;
+    background-color: #ffffff;
   }
 }
 
-/* 2️⃣ Creamos la clase utilitaria para aplicarlo */
 .animate-ping-sacbe {
   animation: ping-sacbe 2s ease-out infinite;
-  /* 4s = muy lento para notar claramente el efecto */
 }

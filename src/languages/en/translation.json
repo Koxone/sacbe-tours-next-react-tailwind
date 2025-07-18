@@ -114,9 +114,9 @@
         "paragraph": "Be one of the few lucky ones who experienced this unique place, only a handful know about it, as access is restricted.",
         "limited": "Limited to 200 people per day."
       },
-      "tourBanner": {
-        "title": "Home",
-        "tours": "Tours",
+      "toursPricing": {
+        "title": "Book your Chichen Itza eco adventure here.",
+        "subtitle": "Select how many days in advance you wish to book to see the applicable rates.",
         "contact": "Contacto",
         "description": "Descripción",
         "terms": "Términos y condiciones con el proveedor",
