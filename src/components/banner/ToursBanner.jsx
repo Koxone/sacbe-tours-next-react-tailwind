@@ -4,6 +4,8 @@ import { usePathname } from 'next/navigation';
 import ToursVideoCard from '../cards/ToursVideoCard';
 import { useTranslation } from 'react-i18next';
 import { useProjectContext } from '@/context/ProjectContext';
+import BokunBookTulum from '../buttons/tours/BokunBookTulum';
+import BokunBookChichen from '../buttons/tours/BokunBookChichen';
 
 function ToursBanner() {
   const pathname = usePathname();
@@ -54,7 +56,7 @@ function ToursBanner() {
             {t('general.tourBanner.adult')} $2,641.<sup>00</sup> MXN
           </p>
           <div className="flex justify-center">
-            <button
+            {/* <button
               onClick={() =>
                 document
                   .getElementById('pricing')
@@ -63,7 +65,9 @@ function ToursBanner() {
               className="bokunButton cursor-pointer rounded-full bg-[#009db0] px-6 py-3 font-semibold text-white transition hover:bg-[#007a8a]"
             >
               {t('general.tourBanner.bookButton')}
-            </button>
+            </button> */}
+            {pathname.includes('chichen-itza') && <BokunBookChichen />}
+            {pathname.includes('tulum') && <BokunBookTulum />}
           </div>
         </div>
       </div>
