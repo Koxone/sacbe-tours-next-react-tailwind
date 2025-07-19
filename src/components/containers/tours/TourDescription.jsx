@@ -19,15 +19,30 @@ export default function TourDescription() {
         <div className="flex flex-col gap-4">
           <div className="flex w-full flex-col gap-2 whitespace-nowrap">
             <h2 className="text-2xl font-bold">
-              {t('tours.tulum.widgetContainer.header.title')}
+              {pathname.includes('tulum') &&
+                t('tours.tulum.widgetContainer.header.title')}
+              {pathname.includes('chichen-itza') &&
+                t('tours.chichen.widgetContainer.header.title')}
             </h2>
             <div className="flex items-center gap-2">
               <ClockIcon />
-              <p className="text-muted text-sm">{`${t('tours.tulum.widgetContainer.header.time')}${t('tours.tulum.widgetContainer.header.utils')}`}</p>
+              <p className="text-muted text-sm">
+                {pathname.includes('tulum') &&
+                  t('tours.tulum.widgetContainer.header.time')}
+                {pathname.includes('chichen-itza') &&
+                  t('tours.chichen.widgetContainer.header.time')}
+                {pathname.includes('tulum') &&
+                  t('tours.tulum.widgetContainer.header.utils')}
+                {pathname.includes('chichen-itza') &&
+                  t('tours.chichen.widgetContainer.header.utils')}
+              </p>
             </div>
           </div>
           <p className="text-gray-700">
-            {t('tours.tulum.widgetContainer.header.description')}
+            {pathname.includes('tulum') &&
+              t('tours.tulum.widgetContainer.header.description')}
+            {pathname.includes('chichen-itza') &&
+              t('tours.chichen.widgetContainer.header.description')}
           </p>
         </div>
 
@@ -51,7 +66,10 @@ export default function TourDescription() {
                   : 'border-transparent text-gray-600 hover:border-blue-600 hover:text-blue-600'
               }`}
             >
-              {t(`tours.tulum.widgetContainer.tabs.${tabKey}`)}
+              {pathname.includes('tulum') &&
+                t(`tours.tulum.widgetContainer.tabs.${tabKey}`)}
+              {pathname.includes('chichen-itza') &&
+                t(`tours.chichen.widgetContainer.tabs.${tabKey}`)}
             </li>
           ))}
         </ul>
@@ -74,46 +92,61 @@ export default function TourDescription() {
             <div className="text-font-p mt-4 space-y-4 text-sm">
               <div className="space-y-2">
                 <h4 className="text-font-heading my-0 !font-semibold">
-                  Pickup
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.titles.one')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.titles.one')}
                 </h4>
                 <p className="leading-relaxed text-[#57646f]">
-                  Pickup from your Hotel/Airbnb in your preferred area. Private
-                  transportation in an air-conditioned vehicle.
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.itinerary.pickup')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.itinerary.pickup')}
                 </p>
               </div>
 
               <div className="space-y-2">
                 <h4 className="text-font-heading my-0 !font-semibold">
-                  Archaeological Zone
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.titles.two')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.titles.two')}
                 </h4>
                 <p className="leading-relaxed text-[#57646f]">
-                  Direct and private transfer to the Tulum archaeological site
-                  (Optional stop for shopping available).
-                </p>
-              </div>
-
-              <div className="space-y-2">
-                <h4 className="text-font-heading my-0 !font-semibold">Beach</h4>
-                <p className="leading-relaxed text-[#57646f]">
-                  Free time at Tulum beach (subject to availability).
-                </p>
-              </div>
-
-              <div className="space-y-2">
-                <h4 className="text-font-heading my-0 !font-semibold">
-                  Cenote
-                </h4>
-                <p className="leading-relaxed text-[#57646f]">
-                  Visit to a Mayan cenote (we'll suggest the best options).
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.itinerary.zone')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.itinerary.zone')}
                 </p>
               </div>
 
               <div className="space-y-2">
                 <h4 className="text-font-heading my-0 !font-semibold">
-                  Return
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.titles.three')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.titles.three')}
                 </h4>
                 <p className="leading-relaxed text-[#57646f]">
-                  Private transfer back to your accommodation.
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.itinerary.cenote')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.itinerary.cenote')}
+                </p>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="text-font-heading my-0 !font-semibold">
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.titles.four')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.titles.four')}
+                </h4>
+                <p className="leading-relaxed text-[#57646f]">
+                  {pathname.includes('tulum') &&
+                    t('tours.tulum.widgetContainer.itinerary.return')}
+                  {pathname.includes('chichen-itza') &&
+                    t('tours.chichen.widgetContainer.itinerary.return')}
                 </p>
               </div>
             </div>

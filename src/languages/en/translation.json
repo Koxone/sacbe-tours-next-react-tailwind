@@ -54,8 +54,8 @@
   "tours": {
     "tulum": {
       "language": {
-        "spanish": "Español",
-        "english": "Inglés"
+        "spanish": "Spanish",
+        "english": "English"
       },
       "banner": {
         "title": "Tulum Natural Experience",
@@ -65,49 +65,39 @@
       "toursPricing": {
         "title": "Book your Tulum eco adventure here.",
         "subtitle": "Select how many days in advance you wish to book to see the applicable rates.",
-        "contact": "Contacto",
-        "description": "Descripción",
-        "terms": "Términos y condiciones con el proveedor",
-        "download": "Descargando..."
+        "contact": "Contact",
+        "description": "Description",
+        "terms": "Terms and conditions with the provider",
+        "download": "Downloading..."
       },
       "aboutUs": {
-        "title": "Sobre Nosotros"
+        "title": "About Us"
       },
       "widgetContainer": {
         "header": {
-          "title": "Tour Tulum 2025",
+          "title": "Tulum Tour 2025",
           "time": "6",
-          "utils": " horas · Fácil · Privado",
-          "bookingButton": "Reservar",
+          "utils": " hours · Easy · Private",
+          "bookingButton": "Book Now",
           "description": "Private tour to Tulum with cenote and optional visit to a traditional village: history, landscapes, and crystal-clear waters in the Mexican Caribbean."
+        },
+        "tabs": {
+          "description": "Description",
+          "itinerary": "Itinerary",
+          "point": "Meeting Point"
+        },
+        "titles": {
+          "one": "Pickup",
+          "two": "Archaeological Zone",
+          "three": "Cenote Visit",
+          "four": "Return"
+        },
+        "itinerary": {
+          "pickup": "Pickup from your Hotel/Airbnb in your chosen area in a private vehicle with air conditioning.",
+          "zone": "Direct and private transfer to the archaeological site of Tulum (a shopping stop can be added).",
+          "cenote": "Visit to a cenote (we will make suggestions).",
+          "return": "Transfer back to your accommodation."
         }
-      },
-      "footer": {
-        "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
-      },
-      "couponContainer": {
-        "welcome": "Bienvenido a nuestra plataforma",
-        "subtitle": "Obtén los mejores descuentos fácilmente"
-      },
-      "regionSelector": {
-        "selectRegion": "Todas las Regiones",
-        "mexico": "México",
-        "dominicanRepublic": "República Dominicana",
-        "cancun": "Cancún",
-        "tulum": "Tulum",
-        "losCabos": "Los Cabos",
-        "puertoVallarta": "Puerto Vallarta",
-        "puntaCana": "Punta Cana"
-      },
-      "languageButton": {
-        "button": "Español"
-      },
-      "couponV3": {
-        "button": "Ver Detalles"
-      },
-      "modalComingSoon": {
-        "title": "¡Próximamente en este destino!",
-        "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
       }
     },
     "chichen": {
@@ -132,34 +122,30 @@
         "title": "Sobre Nosotros"
       },
       "widgetContainer": {
-        "title": "Descubre nuestros tours"
-      },
-      "footer": {
-        "copyright": "2025 Sacbé Transfers. Todos los derechos reservados."
-      },
-      "couponContainer": {
-        "welcome": "Bienvenido a nuestra plataforma",
-        "subtitle": "Obtén los mejores descuentos fácilmente"
-      },
-      "regionSelector": {
-        "selectRegion": "Todas las Regiones",
-        "mexico": "México",
-        "dominicanRepublic": "República Dominicana",
-        "cancun": "Cancún",
-        "tulum": "Tulum",
-        "losCabos": "Los Cabos",
-        "puertoVallarta": "Puerto Vallarta",
-        "puntaCana": "Punta Cana"
-      },
-      "languageButton": {
-        "button": "Español"
-      },
-      "couponV3": {
-        "button": "Ver Detalles"
-      },
-      "modalComingSoon": {
-        "title": "¡Próximamente en este destino!",
-        "text": "Estamos preparando algo especial. Vuelve pronto para descubrir todas las ofertas y experiencias que tenemos para ti."
+        "header": {
+          "title": "Tour Chichen-Itza 2025",
+          "time": "6",
+          "utils": " hours · Easy · Private",
+          "bookingButton": "Reservar",
+          "description": "Private tour to Chichén Itzá with cenote and optional stop in Valladolid: history, landscapes, and crystal-clear waters."
+        },
+        "tabs": {
+          "description": "Description",
+          "itinerary": "Itinerary",
+          "point": "Meeting Point"
+        },
+        "titles": {
+          "one": "Pickup",
+          "two": "Archaeological Zone",
+          "three": "Cenote Visit",
+          "four": "Return"
+        },
+        "itinerary": {
+          "pickup": "Pickup from your Hotel/Airbnb in your chosen area in a private vehicle with air conditioning.",
+          "zone": "Direct and private transfer to the archaeological site of Chichén Itzá (a shopping stop can be added).",
+          "cenote": "Visit to a Mayan cenote (we will make suggestions).",
+          "return": "Transfer back to your accommodation."
+        }
       }
     },
     "cancun": {
