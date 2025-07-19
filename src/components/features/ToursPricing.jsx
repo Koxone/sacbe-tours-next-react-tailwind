@@ -93,7 +93,9 @@ function ToursPricing() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {/* Adult */}
         <div className="rounded-lg bg-neutral-100 p-4 text-center shadow">
-          <h3 className="mb-2 text-4xl whitespace-nowrap">Precio Adulto</h3>
+          <h3 className="mb-2 text-4xl whitespace-nowrap">
+            {t('general.pricing.adult')}
+          </h3>
           <p className="text-2xl font-bold text-[#009db0]">
             ${price.adult.toLocaleString()} <span className="text-sm">MXN</span>
           </p>
@@ -112,7 +114,7 @@ function ToursPricing() {
 
         {/* Child */}
         <div className="rounded-lg bg-neutral-100 p-4 text-center shadow">
-          <h3 className="mb-2 text-4xl">Precio Niño</h3>
+          <h3 className="mb-2 text-4xl">{t('general.pricing.child')}</h3>
           <p className="text-2xl font-bold text-[#009db0]">
             ${price.child.toLocaleString()} <span className="text-sm">MXN</span>
           </p>
@@ -131,7 +133,7 @@ function ToursPricing() {
 
         {/* Infant */}
         <div className="rounded-lg bg-neutral-100 p-4 text-center shadow">
-          <h3 className="mb-2 text-4xl">Precio Niño</h3>
+          <h3 className="mb-2 text-3xl">{t('general.pricing.infant')}</h3>
           <p className="text-2xl font-bold text-[#009db0]">
             ${price.infant.toLocaleString()}{' '}
             <span className="text-sm">MXN</span>

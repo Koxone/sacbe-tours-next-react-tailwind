@@ -4,6 +4,9 @@
       "spanish": "Spanish",
       "english": "English"
     },
+    "languageButton": {
+      "button": "English"
+    },
     "menu": {
       "home": "Home",
       "contact": "Contact",
@@ -26,29 +29,14 @@
     "footer": {
       "copyright": "2025 Sacbé Transfers. All rights reserved."
     },
-    "couponContainer": {
-      "welcome": "Welcome to our platform",
-      "subtitle": "Get the best discounts easily"
+    "faq": {
+      "title": "Frequently Asked Questions About the Tour",
+      "subtitle": "Get quick answers to all your questions about the Cancun Tour"
     },
-    "regionSelector": {
-      "selectRegion": "All Regions",
-      "mexico": "Mexico",
-      "dominicanRepublic": "Dominican Republic",
-      "cancun": "Cancun",
-      "tulum": "Tulum",
-      "losCabos": "Los Cabos",
-      "puertoVallarta": "Puerto Vallarta",
-      "puntaCana": "Punta Cana"
-    },
-    "languageButton": {
-      "button": "English"
-    },
-    "couponV3": {
-      "button": "View Details"
-    },
-    "modalComingSoon": {
-      "title": "Coming Soon to this destination",
-      "text": "We're preparing something special. Check back soon to discover all the offers and experiences we have for you."
+    "pricing": {
+      "adult": "Adult Price",
+      "child": "Child Price",
+      "infant": "Infant Price"
     }
   },
   "tours": {

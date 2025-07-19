@@ -1,8 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import FAQCard from '../cards/FAQCard';
 import data from '@/data/data.json';
 
 const FAQContainer = () => {
   const faqItems = data.faq;
+  const { t } = useTranslation();
 
   const handleButtonClick = (e) => {
     e.stopPropagation();
@@ -11,15 +13,13 @@ const FAQContainer = () => {
   return (
     <section className="mx-auto max-w-5xl px-4 py-12">
       <h2 className="mb-2 text-center text-3xl font-bold text-[var(--color-sacbe)]">
-        Preguntas frecuentes sobre el tour a Cancun
+        {t('general.faq.title')}
       </h2>
-      <h3 className="mb-8 text-center text-lg">
-        Obtén respuestas rápidas a todas tus consultas sobre el Tour a Cancun
-      </h3>
+      <h3 className="mb-8 text-center text-lg">{t('general.faq.subtitle')}</h3>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         {faqItems.map((item) => (
           <FAQCard
-            key={item.id} 
+            key={item.id}
             title={item.title}
             revealed={item.content}
             onClick={handleButtonClick}
