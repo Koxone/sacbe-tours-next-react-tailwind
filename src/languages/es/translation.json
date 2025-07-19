@@ -98,6 +98,76 @@
           "cenote": "Visita a un cenote (te haremos sugerencias).",
           "return": "Traslado de regreso a tu alojamiento."
         }
+      },
+      "content": {
+        "description": {
+          "paragraph1": "Descubre la magia del Caribe mexicano con este tour privado a Tulum, una antigua ciudad maya construida frente al mar. Disfruta de un día lleno de historia, paisajes impresionantes y aguas cristalinas, con la opción de visitar un cenote o pasar el día en la playa.",
+          "paragraph2": "Incluye visita al sitio arqueológico de Tulum y a un cenote para vivir una experiencia única."
+        },
+        "cenotes": {
+          "intro": "Podemos llevarte a uno de los siguientes cenotes, tú eliges cuál:",
+          "options": [
+            "Cenote Casa Tortuga",
+            "Cenote Cristalino",
+            "Cenote Dos Ojos",
+            "Gran Cenote"
+          ]
+        },
+        "recommendations": {
+          "title": "Qué llevar",
+          "items": [
+            {
+              "title": "Ropa cómoda y ligera",
+              "details": "shorts, playera de manga corta, vestido fresco"
+            },
+            {
+              "title": "Tenis o sandalias cómodas",
+              "details": "para caminar en la zona arqueológica"
+            },
+            {
+              "title": "Traje de baño",
+              "details": "para nadar en el cenote o en la playa"
+            },
+            {
+              "title": "Toalla y muda de ropa extra",
+              "details": "especialmente si planeas nadar"
+            },
+            {
+              "title": "Protector solar biodegradable",
+              "details": "importante para proteger los cenotes"
+            },
+            {
+              "title": "Gorra o sombrero y lentes de sol"
+            },
+            {
+              "title": "Repelente de insectos biodegradable"
+            },
+            {
+              "title": "Agua embotellada"
+            },
+            {
+              "title": "Efectivo",
+              "details": "para entradas, propinas, souvenirs, etc."
+            }
+          ]
+        },
+        "includes": {
+          "items": [
+            "Suplemento por combustible",
+            "🚐 Transporte privado en vehículo con aire acondicionado",
+            "👨‍✈️ Chofer disponible de 6 a 8 horas",
+            "📍 Recojo en tu hotel o Airbnb",
+            "🗿 Visita al sitio arqueológico de Tulum",
+            "🌀 Visita a un cenote"
+          ]
+        },
+        "info": {
+          "type": "Tipo de experiencia: Tour / Actividad Privado",
+          "booking": "Reservar con antelación: 1 día",
+          "duration": "Duración: 10 horas",
+          "difficulty": "Dificultad: Fácil",
+          "categories": "Categorías: Excursiones de un día, Tours en camioneta, Familiar, Grupos, Experiencia privada"
+        }
       }
     },
     "chichen": {
@@ -145,6 +215,95 @@
           "zone": "Traslado directo y privado al sitio arqueológico de Chichén Itzá (se puede incluir una parada para compras).",
           "cenote": "Visita a un cenote maya (te haremos sugerencias).",
           "return": "Traslado de regreso a tu alojamiento."
+        }
+      },
+      "content": {
+        "description": {
+          "paragraphs": [
+            "¡Vive una experiencia inolvidable explorando una de las maravillas del mundo moderno! Este tour privado te lleva a descubrir la imponente zona arqueológica de <strong>Chichén Itzá</strong>, acompañado de un recorrido refrescante por un <strong>cenote sagrado</strong> y, si lo deseas, una visita al encantador Pueblo Mágico de <strong>Valladolid</strong>.",
+            "Ideal para familias, parejas o grupos de amigos que desean explorar lo mejor de Chichén Itzá y sus alrededores a su ritmo y con total comodidad.",
+            "Reserva con anticipación y prepárate para un día lleno de historia, cultura y naturaleza."
+          ]
+        },
+        "includes": {
+          "title": "¿Qué está incluido en el precio?",
+          "items": [
+            "Suplemento por combustible",
+            "🚐 Transporte privado en vehículo con aire acondicionado",
+            "👨‍✈️ Chofer disponible de 10 a 12 hrs",
+            "📍 Pick up en hotel o Airbnb",
+            "🗿 Visita a sitio arqueológico de Chichén Itzá",
+            "🌀 Visita a cenote",
+            "⛪ Visita opcional al Pueblo Mágico de Valladolid"
+          ]
+        },
+        "excludes": {
+          "title": "Exclusiones",
+          "items": [
+            "Propina o agradecimiento",
+            "Tarifas de estacionamiento",
+            "Comida y bebida",
+            "Entrada",
+            "Estacionamientos ni casetas (autopista)",
+            "Entrada a sitio arqueológico ni a cenote",
+            "Propinas no incluidas"
+          ]
+        },
+        "recommendations": {
+          "title": "¿Qué necesito llevar?",
+          "items": [
+            {
+              "title": "Ropa cómoda y ligera",
+              "details": "shorts, playera de manga corta, vestido fresco"
+            },
+            {
+              "title": "Tenis o sandalias cómodas",
+              "details": "para caminar en la zona arqueológica"
+            },
+            { "title": "Traje de baño", "details": "para nadar en el cenote" },
+            {
+              "title": "Toalla y muda de ropa extra",
+              "details": "especialmente si planeas nadar"
+            },
+            {
+              "title": "Protector solar biodegradable",
+              "details": "importante para cuidar los cenotes"
+            },
+            { "title": "Gorra o sombrero y lentes de sol" },
+            { "title": "Repelente de insectos biodegradable" },
+            { "title": "Agua embotellada" },
+            {
+              "title": "Efectivo",
+              "details": "para entradas, propinas, souvenirs, etc."
+            }
+          ]
+        },
+        "cancellation": {
+          "title": "Política de cancelación",
+          "items": [
+            "Cobraremos una tasa de cancelación del 100% si cancelas la reserva 1 Día o antes, del comienzo del evento",
+            "Cobraremos una tasa de cancelación del 0% si cancelas la reserva 1000 Días o antes, del comienzo del evento"
+          ]
+        },
+        "info": {
+          "title": "Más información",
+          "typeTitle": "Tipo de experiencia",
+          "typeLabel": "Tour / Actividad",
+          "typeBadge": "Privado",
+          "bookingTitle": "Reservar con antelación",
+          "booking": "Hora de cierre de reserva: 1 día",
+          "durationTitle": "Duración",
+          "duration": "10 horas",
+          "difficultyTitle": "Dificultad",
+          "difficulty": "Fácil",
+          "categoriesTitle": "Categorías",
+          "categories": [
+            "Day trips and excursions",
+            "Bus / minivan tour",
+            "Family friendly",
+            "Group friendly",
+            "Private experience"
+          ]
         }
       }
     },
