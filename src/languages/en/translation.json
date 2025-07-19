@@ -98,6 +98,76 @@
           "cenote": "Visit to a cenote (we will make suggestions).",
           "return": "Transfer back to your accommodation."
         }
+      },
+      "content": {
+        "description": {
+          "paragraph1": "Discover the magic of the Mexican Caribbean with this private tour to Tulum, an ancient Mayan city built by the sea. Enjoy a day full of history, stunning landscapes, and crystal-clear waters, with the option to visit a cenote or spend the day at the beach.",
+          "paragraph2": "Includes visit to the archaeological site of Tulum and a cenote visit for a unique experience."
+        },
+        "cenotes": {
+          "intro": "We can take you to one of the following cenotes, you choose which:",
+          "options": [
+            "Cenote Casa Tortuga",
+            "Cenote Cristalino",
+            "Cenote Dos Ojos",
+            "Gran Cenote"
+          ]
+        },
+        "recommendations": {
+          "title": "What to bring",
+          "items": [
+            {
+              "title": "Comfortable and light clothing",
+              "details": "shorts, short-sleeve t-shirt, light dress"
+            },
+            {
+              "title": "Comfortable sneakers or sandals",
+              "details": "for walking around the archaeological zone"
+            },
+            {
+              "title": "Swimsuit",
+              "details": "for swimming in the cenote or beach"
+            },
+            {
+              "title": "Towel and change of clothes",
+              "details": "especially if you plan to swim"
+            },
+            {
+              "title": "Biodegradable sunscreen",
+              "details": "important to protect the cenotes"
+            },
+            {
+              "title": "Cap or hat and sunglasses"
+            },
+            {
+              "title": "Biodegradable insect repellent"
+            },
+            {
+              "title": "Bottled water"
+            },
+            {
+              "title": "Cash",
+              "details": "for entrance fees, tips, souvenirs, etc."
+            }
+          ]
+        },
+        "includes": {
+          "items": [
+            "Fuel surcharge",
+            "🚐 Private transportation in an air-conditioned vehicle",
+            "👨‍✈️ Driver available for 6 to 8 hours",
+            "📍 Pick up at your hotel or Airbnb",
+            "🗿 Visit to the archaeological site of Tulum",
+            "🌀 Visit to a cenote"
+          ]
+        },
+        "info": {
+          "type": "Type of experience: Private Tour / Activity",
+          "booking": "Book in advance: 1 day",
+          "duration": "Duration: 10 hours",
+          "difficulty": "Difficulty: Easy",
+          "categories": "Categories: Day trips, Van tours, Family friendly, Group friendly, Private experience"
+        }
       }
     },
     "chichen": {
