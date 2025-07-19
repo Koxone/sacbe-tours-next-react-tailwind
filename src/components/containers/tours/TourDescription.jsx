@@ -54,8 +54,8 @@ export default function TourDescription() {
       </ul>
 
       {/* Content */}
-      {/* Tab Content */}
       <div role="tabpanel" className="mt-6 space-y-4">
+        {/* Description */}
         {activeTab === 'description' && (
           <div className="flex flex-col gap-7">
             {/* Description */}
@@ -171,6 +171,7 @@ export default function TourDescription() {
             </div>
           </div>
         )}
+        {/* Itinerary */}
         {activeTab === 'itinerary' && (
           <div>
             <h3 className="text-xl font-semibold">Itinerario</h3>
@@ -222,10 +223,65 @@ export default function TourDescription() {
             </div>
           </div>
         )}
+        {/* Recollection */}
         {activeTab === 'point' && (
-          <div>
-            <h3 className="text-xl font-semibold">Punto de salida</h3>
-            <p>Contenido del punto de salida...</p>
+          <div className="flex flex-col gap-6">
+            <p className="text-lg font-medium">
+              Puedes comenzar esta experiencia en los siguientes lugares.
+            </p>
+            <div className="flex flex-col gap-10">
+              {/* Pick up point 1 */}
+              <div>
+                <p className="text-base font-medium">
+                  Cancún Centro & Zona Hotelera
+                </p>
+                <p className="text-neutral-500">
+                  Cancún Centro / Zona Hotelera, 77500 Cancún, MX
+                </p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d465.17991305059337!2d-86.74602892326793!3d21.134908688202877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCanc%C3%BAn%20Centro%20%2F%20Zona%20Hotelera%2C%2077500%20Canc%C3%BAn%2C%20MX!5e0!3m2!1sen!2smx!4v1752882167486!5m2!1sen!2smx"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              {/* Pick up point 2 */}
+              <div>
+                <p className="text-base font-medium">Puerto Morelos</p>
+                <p className="text-neutral-500">
+                  Quintana Roo Puerto Morelos - Leona Vicario, 77580 Puerto
+                  Morelos, MX
+                </p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6270.762147046766!2d-86.90783748594619!3d20.847147551505923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e635650901379%3A0x58c7cd0f5c63e898!2sMonumento%20Ruta%20de%20los%20Cenotes!5e0!3m2!1sen!2smx!4v1752881904420!5m2!1sen!2smx"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              {/* Pick up point 3 */}
+              <div>
+                <p className="text-base font-medium">Playa del Carmen</p>
+                <p className="text-neutral-500">
+                  Playa del Carmen, 77539 Cancún, MX
+                </p>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.379872916946!2d-86.91908912402829!3d21.13727558404121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4dd4c437274e2d%3A0xc101a1ea8332be82!2sCarabanchel%2C%2077539%20Canc%C3%BAn%2C%20Q.R.!5e0!3m2!1sen!2smx!4v1752882368755!5m2!1sen!2smx"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
           </div>
         )}
       </div>
