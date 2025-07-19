@@ -14,7 +14,9 @@ function TourTulum() {
       <ToursBanner />
       <ToursBreadcrumb />
       <ToursPricing />
-      <TourWidgetContainer />
+      <div className="flex flex-col items-center justify-center">
+        <TourWidgetContainer />
+      </div>
       <FAQContainer />
     </div>
   );
