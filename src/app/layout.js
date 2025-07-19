@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body className="grid min-h-screen grid-rows-[auto_1fr_auto]">
+      <body className="grid min-h-screen w-screen grid-rows-[auto_1fr_auto] overflow-x-hidden">
         <ContextProvider>
           <I18nProvider>
             <Header />

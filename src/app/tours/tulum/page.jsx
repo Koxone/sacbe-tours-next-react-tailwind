@@ -10,7 +10,7 @@ import ToursBreadcrumb from '@/components/nav/ToursBreadCromb';
 
 function TourTulum() {
   return (
-    <div className="w-full">
+    <div className="w-screen overflow-x-hidden">
       <ToursBanner />
       <ToursBreadcrumb />
       <ToursPricing />
