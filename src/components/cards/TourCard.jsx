@@ -9,7 +9,8 @@ function TourCard({ tour }) {
 
   return (
     <div
-      onClick={() => router.push(`/tours/${tour}`)}
+      onClick={() => (window.location.href = `/tours/${tour}`)}
+      // onClick={() => router.push(`/tours/${tour}`)}
       className="group flex w-full max-w-[250px] shrink-0 cursor-pointer flex-col overflow-hidden rounded-lg border border-neutral-500/50 bg-white shadow-sm"
     >
       {/* Imagen con aspect ratio fijo */}

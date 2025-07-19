@@ -16,8 +16,6 @@ function WidgetsContainer({ tour1, tour2, tour3, tour4 }) {
         <div className="mx-auto flex w-max gap-4 px-4 pb-4">
           <TourCard tour={tour1} />
           <TourCard tour={tour2} />
-          <TourCard tour={tour3} />
-          <TourCard tour={tour4} />
         </div>
       </div>
     </div>
