@@ -18,7 +18,7 @@ export default function TulumCalendar() {
   }, []);
 
   return (
-    <div className="mx-auto w-full max-w-4xl p-4">
+    <div className="mx-auto w-full max-w-4xl p-">
       <div
         className="bokunWidget"
         data-src="https://widgets.bokun.io/online-sales/134bd5aa-4e3e-4dae-a4d0-4bb2d507381f/experience-calendar/1048914"
