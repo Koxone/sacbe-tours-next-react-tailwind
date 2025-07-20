@@ -25,7 +25,7 @@ const FAQContainer = () => {
             onClick={handleButtonClick}
           />
         ))}
-      </div>
+      </div> 
     </section>
   );
 };
